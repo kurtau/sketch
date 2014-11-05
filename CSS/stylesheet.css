@@ -1,0 +1,15 @@
+.grid {
+	height: 50px;
+	width: 50px;
+	background-color: gray;
+	display: inline-block;
+	margin: 0px;
+}
+
+#container {
+	display: block;
+	width: 400px;
+	height: 400px;
+	margin: 0px auto;
+	padding-top: 150px;
+}
