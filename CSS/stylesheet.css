@@ -1,15 +1,37 @@
-.grid {
-	height: 50px;
-	width: 50px;
-	background-color: gray;
-	display: inline-block;
-	margin: 0px;
+.square {
+	height: 20px;
+	width: 20px;
+	background-color: #494546;
+	float: left;
+}
+
+#reset {
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	height: 40px;
+	width: 80px;
+	font-family: Arial;
+	border-radius: 10px;
+	font-color: #828E8C;
+	font-size: 20px;
+	font-style: bold;
+
 }
 
 #container {
-	display: block;
-	width: 400px;
-	height: 400px;
-	margin: 0px auto;
-	padding-top: 150px;
+	margin: auto;
+	height: 640px;
+	width: 640px;
+	margin-top: 10px;
+	border: 10px solid #F8ECDE;
+}
+
+h1 {
+	text-align: center;
+	font-family: Tahoma;
+}
+
+body {
+	background-color: #C5D0C1;
 }
